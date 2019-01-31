@@ -1,0 +1,7 @@
+$light-blue: #6290C3;
+$red: #9E0000;
+$white: #FFFFFF;
+$green: #6B9080;
+$light-green: #A4C3B2;
+
+p {color: $green;}

@@ -10,6 +10,15 @@ module.exports = {
     filename: "[name].bundle.js"
   },
   module: {
+    rules: [{
+           test: /\.scss$/,
+           use: [
+               "style-loader", // creates style nodes from JS strings
+               "css-loader", // translates CSS into CommonJS
+               "sass-loader" // compiles Sass to CSS, using Node Sass by default
+           ]
+       }],
+
     loaders: [
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
       { test: /\.css$/, loader: "style!css" },
