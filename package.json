@@ -2,7 +2,7 @@
   "name": "quantified-self-starter-kit",
   "version": "1.0.0",
   "description": "Starter kit for Turing School's BEE M4 Quantified Self Project",
-  "main": "index.js",
+  "main": "./lib/javascripts/index.js",
   "proxy": "https://localhost:3000/",
   "scripts": {
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
