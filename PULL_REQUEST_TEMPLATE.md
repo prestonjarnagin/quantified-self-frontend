@@ -1,9 +1,34 @@
-#### Pivotal URL:
+- [ ] Wrote Tests
+- [ ] Implemented
+- [ ] Reviewed
 
-#### What does this PR do?
 
-#### Where should the reviewer start?
+# Necessary checkmarks:
+- [ ] All Tests are Passing
+- [ ] The code will run locally
 
-#### Any additional context you want to provide?
+## Type of change
+- [ ] New feature
+- [ ] Bug Fix
 
-#### Screenshots (if appropriate)
+# Implements/Fixes:
+## Description of Changes
+
+closes #
+
+# Check the correct boxes
+- [ ] This broke nothing
+- [ ] This broke some stuff
+- [ ] This broke everything
+
+# Testing Changes
+- [ ] No Tests have been changed
+- [ ] Some Tests have been changed
+- [ ] All of the Tests have been changed(Please describe what in the world happened)
+
+# Checklist:
+
+- [ ] My code has no unused/commented out code
+- [ ] I have reviewed my code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have fully tested my code
