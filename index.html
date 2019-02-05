@@ -3,16 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Quantified Self - Diary</title>
-    <link rel="stylesheet" type="text/scss" herf="./lib/styles/index.scss">
+    <link rel="stylesheet" herf="/lib/styles/index.css">
 
   </head>
 
   <body>
     <nav>
       <p> Hello World </p>
-      <a href="./lib/views/foods.html"><button class="default-button">Foods</button></a>
-      <a href="./lib/views/diary.html"><button class="default-button">Diary</button></a>
+      <!-- <a href="./lib/views/foods.html"><button class="default-button">Foods</button></a>
+      <a href="./lib/views/diary.html"><button class="default-button">Diary</button></a> -->
     </nav>
+
+    <h3> Add New Foods </h3>
+    <form id="new-food-form">
+      <input type="text" placeholder="Food Name" id="new-food-name">
+      <input type="text" placeholder="Food Calories" id="new-food-calories">
+      <input type="submit" placeholder="Submit" id="submit-new-foods" >
+    </form>
 
         <div id="food-directory">
           <input type="text" placeholder="Search for a Food" id="food-search-box">
