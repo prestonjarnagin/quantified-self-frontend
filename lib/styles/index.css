@@ -1,3 +1,28 @@
 p {
   color: green;
 }
+body{
+  font-family: "Open Sans", sans-serif;
+  background-color: #A4C3B2;
+
+}
+
+button{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  border-radius: 30px;
+  background-color: rgb(146,148,151);
+  margin: 18px;
+  height: 30px;
+  width: 120px;
+}
+
+button:disabled {
+  background-color: rgb(185,185,185);
+}
+
+button:hover {
+  background-color: #9E0000;
+}
