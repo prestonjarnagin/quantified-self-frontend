@@ -1,10 +1,8 @@
-p {
-  color: green;
-}
+
 body{
   font-family: "Open Sans", sans-serif;
-  background-color: #A4C3B2;
-
+  background-color: #FFFFFF;
+  padding: 40px;
 }
 
 button{
@@ -25,4 +23,23 @@ button:disabled {
 
 button:hover {
   background-color: #9E0000;
+}
+
+.nav-buttons:hover{
+  background-color: #6290C3;
+}
+
+#diary{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meal-table{
+  margin: 15px;
+  padding: 40px;
+}
+
+.remove-food-meal-button{
+  height: 30px;
+  width: 30px;
 }
