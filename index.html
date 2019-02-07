@@ -13,32 +13,38 @@
 
   <body>
     <nav>
-      <button class='nav-buttons'>Foods</button>
-      <button class='nav-buttons'>Diary</button>
-      <button class='nav-buttons'>Calander</button>
+      <button id="foods-page-button" class='nav-buttons'>Foods</button>
+      <button id="diary-page-button" class='nav-buttons'>Diary</button>
+      <button id="calendar-page-button" class='nav-buttons'>Calendar</button>
 
     </nav>
 
-    <h3> Add New Foods </h3>
-    <form id="new-food-form">
-      <input type="text" placeholder="Food Name" id="new-food-name">
-      <input type="text" placeholder="Food Calories" id="new-food-calories">
-      <input type="submit" placeholder="Submit" id="submit-new-foods" >
-    </form>
+    <div id="foods-page">
+      <h3> Add New Foods </h3>
+      <form id="new-food-form">
+        <input type="text" placeholder="Food Name" id="new-food-name">
+        <input type="text" placeholder="Food Calories" id="new-food-calories">
+        <input type="submit" placeholder="Submit" id="submit-new-foods" >
+      </form>
 
-        <div id="food-directory">
-          <input type="text" placeholder="Search for a Food" id="food-search-box">
-          <table id="food-table"> </table>
-        </div>
+      <div id="food-directory">
+        <input type="text" placeholder="Search for a Food" id="food-search-box">
+        <table id="food-table"> </table>
+      </div>
+    </div>
+      <div id="date-form">
         <h2> Select a date for the diary </h2>
         <input type="date" id="diary-date">
         <button id="change-date-button">Diary Date</button>
+      </div>
         <div id="diary">
-        </div>
-        <h3> Add Foods to Meals </h3>
-        <h5> Add selected foods too: </h5>
-        <div id="add-foods-buttons">
 
+
+        </div>
+        <div id="add-foods-buttons">
+          <h3> Add Foods to Meals </h3>
+          <h5> Add selected foods too: </h5>
+          
         </div>
 
         <div id="add-foods-table">
